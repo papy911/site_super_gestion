@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperGestion - L'Excellence de la Gestion Commerciale</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="top-banner">
+        <span><i class="fa-solid fa-rocket"></i> Propulsez vos ventes avec SuperGestion 2.0. Essai gratuit de 14 jours !</span>
+    </div>
+    
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images (3).jpg" alt="SuperGestion logo" class="logo-img">
+                <span class="logo-text">SuperGestion</span>
+            </div>
+            <div class="nav-links">
+                <a href="#accueil" class="active">Accueil</a>
+                <a href="#fonctionnalites">Fonctionnalités</a>
+                <a href="#visite">Interface</a>
+                <a href="#integrations">Intégrations</a>
+                <a href="#tarifs">Tarifs</a>
+            </div>
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-outline-small">Se connecter</a>
+                <button class="btn btn-primary-small">Essayer</button>
+                <div class="mobile-menu-btn"><i class="fa-solid fa-bars"></i></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero 4D Section -->
+    <header id="accueil" class="hero">
+        <div class="hero-bg">
+            <div class="glow-orb orb-1"></div>
+            <div class="glow-orb orb-2"></div>
+            <div class="grid-overlay"></div>
+        </div>
+        <div class="container hero-grid">
+            <div class="hero-text reveal-left">
+                <div class="badge-pill">
+                    <span class="pulse-dot"></span> Système ERP de pointe
+                </div>
+                <h1 class="text-gradient">Prenez le contrôle total de votre activité.</h1>
+                <p>Automatisez vos ventes, gérez vos stocks en temps réel et prenez des décisions éclairées avec le logiciel le plus puissant du marché.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary btn-glow" onclick="alert('Création de compte...')">Démarrer gratuitement <i class="fa-solid fa-arrow-right"></i></button>
+                    <button class="btn btn-glass" onclick="document.getElementById('visite').scrollIntoView({behavior: 'smooth'})"><i class="fa-solid fa-play"></i> Démo 3D</button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <strong>+500</strong>
+                        <span>Entreprises</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <strong>99.9%</strong>
+                        <span>Disponibilité</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <strong>24/7</strong>
+                        <span>Support client</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual reveal-right">
+                <div class="visual-wrapper dynamic-3d-container">
+                    <img src="Capture d'écran 2026-05-11 212635.png" alt="Login Mockup" class="main-image dynamic-3d-element">
+                    
+                    <div class="floating-card fc-1 parallax" data-speed="0.05">
+                        <div class="fc-icon"><i class="fa-solid fa-chart-line"></i></div>
+                        <div class="fc-text">
+                            <h4>Croissance</h4>
+                            <span>+45% ce mois</span>
+                        </div>
+                    </div>
+                    
+                    <div class="floating-card fc-2 parallax" data-speed="-0.03">
+                        <div class="fc-icon success"><i class="fa-solid fa-check"></i></div>
+                        <div class="fc-text">
+                            <h4>Système sécurisé</h4>
+                            <span>Chiffrement AES-256</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Bento Features Grid -->
+    <section id="fonctionnalites" class="features-section">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2>L'écosystème <span class="text-accent">parfait</span> pour votre gestion</h2>
+                <p>Découvrez une suite d'outils interconnectés conçue pour maximiser votre productivité.</p>
+            </div>
+            
+            <div class="bento-grid">
+                <!-- Large Card -->
+                <div class="bento-card bento-large reveal-up">
+                    <div class="card-content">
+                        <div class="card-tag">ANALYTIQUE AVANCÉE</div>
+                        <h3>Tableaux de bord intelligents</h3>
+                        <p>Visualisez vos performances de vente, votre chiffre d'affaires et l'état de vos stocks en un coup d'œil.</p>
+                        <ul class="feature-list">
+                            <li><i class="fa-solid fa-circle-check"></i> Graphiques en temps réel</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Rapports exportables</li>
+                        </ul>
+                    </div>
+                    <div class="card-image-container dynamic-3d-container">
+                        <img src="Capture d'écran 2026-05-11 212715.png" alt="Dashboard" class="bento-img dynamic-3d-element">
+                    </div>
+                </div>
+
+                <!-- Small Card 1 -->
+                <div class="bento-card reveal-up" style="transition-delay: 100ms;">
+                    <div class="card-content">
+                        <div class="card-tag">POINT DE VENTE</div>
+                        <h3>Caisse POS fluide</h3>
+                        <p>Encaissez vos clients rapidement avec un système optimisé pour les commerces.</p>
+                    </div>
+                    <div class="card-image-container dynamic-3d-container">
+                        <img src="Capture d'écran 2026-05-11 212728.png" alt="Caisse POS" class="bento-img bento-img-small dynamic-3d-element">
+                    </div>
+                </div>
+
+                <!-- Small Card 2 -->
+                <div class="bento-card reveal-up" style="transition-delay: 200ms;">
+                    <div class="card-content">
+                        <div class="card-tag">COLLABORATION</div>
+                        <h3>Gestion des droits</h3>
+                        <p>Assignez des rôles précis à chaque employé pour une sécurité optimale.</p>
+                    </div>
+                    <div class="card-image-container dynamic-3d-container">
+                        <img src="Capture d'écran 2026-05-11 212830.png" alt="Utilisateurs" class="bento-img bento-img-small dynamic-3d-element">
+                    </div>
+                </div>
+
+                <!-- Medium Card -->
+                <div class="bento-card bento-medium reveal-up" style="transition-delay: 300ms;">
+                    <div class="card-content">
+                        <div class="card-tag">ADMINISTRATION</div>
+                        <h3>Facturation PDF Pro</h3>
+                        <p>Générez des factures et des devis professionnels automatiquement avec votre logo.</p>
+                        <a href="#" class="link-arrow">Voir un exemple <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="card-image-container dynamic-3d-container">
+                        <img src="Capture d'écran 2026-05-11 212814.png" alt="Facturation PDF" class="bento-img img-tall dynamic-3d-element">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Integrations Logos -->
+    <section id="integrations" class="integrations-section">
+        <div class="container center-text reveal-up">
+            <p class="subtitle">COMPATIBLE AVEC VOS OUTILS PRÉFÉRÉS</p>
+            <div class="logo-marquee">
+                <div class="marquee-track">
+                    <div class="payment-logo"><i class="fa-brands fa-cc-visa"></i> Visa</div>
+                    <div class="payment-logo"><i class="fa-brands fa-cc-mastercard"></i> Mastercard</div>
+                    <div class="payment-logo"><i class="fa-solid fa-mobile-screen"></i> Wave Money</div>
+                    <div class="payment-logo"><i class="fa-solid fa-mobile-button"></i> Orange Money</div>
+                    <div class="payment-logo"><i class="fa-brands fa-whatsapp"></i> WhatsApp API</div>
+                    <div class="payment-logo"><i class="fa-solid fa-envelope"></i> SMTP Email</div>
+                    <!-- Duplicate for infinite scroll effect -->
+                    <div class="payment-logo"><i class="fa-brands fa-cc-visa"></i> Visa</div>
+                    <div class="payment-logo"><i class="fa-brands fa-cc-mastercard"></i> Mastercard</div>
+                    <div class="payment-logo"><i class="fa-solid fa-mobile-screen"></i> Wave Money</div>
+                    <div class="payment-logo"><i class="fa-solid fa-mobile-button"></i> Orange Money</div>
+                    <div class="payment-logo"><i class="fa-brands fa-whatsapp"></i> WhatsApp API</div>
+                    <div class="payment-logo"><i class="fa-solid fa-envelope"></i> SMTP Email</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Tour (3D Carousel) -->
+    <section id="visite" class="tour-section">
+        <div class="tour-bg-element"></div>
+        <div class="container center-text">
+            <div class="section-header reveal-up">
+                <h2>Expérience Immersive <span class="text-accent">4D</span></h2>
+                <p>Naviguez dans notre interface de manière interactive comme si vous y étiez.</p>
+            </div>
+            
+            <div class="carousel-container reveal-up">
+                <div class="carousel">
+                    <div class="carousel-item active">
+                        <img src="Capture d'écran 2026-05-11 212715.png" alt="Dashboard" class="carousel-img">
+                    </div>
+                    <div class="carousel-item next">
+                        <img src="Capture d'écran 2026-05-11 212728.png" alt="Caisse POS" class="carousel-img">
+                    </div>
+                    <div class="carousel-item prev">
+                        <img src="Capture d'écran 2026-05-11 212814.png" alt="Factures" class="carousel-img">
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <button id="prevBtn" class="glass-btn"><i class="fa-solid fa-chevron-left"></i></button>
+                    <button id="nextBtn" class="glass-btn"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-box reveal-up">
+                <div class="cta-content">
+                    <h2>Prêt à transformer votre entreprise ?</h2>
+                    <p>Rejoignez des centaines de gérants satisfaits. Configuration en moins de 5 minutes.</p>
+                    <div class="cta-buttons">
+                        <button class="btn btn-white">Créer mon compte gratuit</button>
+                        <button class="btn btn-outline-white">Contacter les ventes</button>
+                    </div>
+                </div>
+                <div class="cta-decoration">
+                    <i class="fa-solid fa-rocket"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <img src="images (3).jpg" alt="SuperGestion" class="logo-img">
+                        <span class="logo-text">SuperGestion</span>
+                    </div>
+                    <p>La solution complète pour digitaliser et sécuriser votre commerce au Sénégal et partout en Afrique.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Produit</h4>
+                    <a href="#fonctionnalites">Fonctionnalités</a>
+                    <a href="#tarifs">Tarification</a>
+                    <a href="#visite">Démo 3D</a>
+                    <a href="#">Mises à jour</a>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Ressources</h4>
+                    <a href="#">Centre d'aide</a>
+                    <a href="#">Tutoriels vidéos</a>
+                    <a href="#">Blog</a>
+                    <a href="#">API Documentation</a>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Contact</h4>
+                    <a href="#"><i class="fa-solid fa-envelope"></i> contact@supergestion.sn</a>
+                    <a href="#"><i class="fa-solid fa-phone"></i> +221 33 000 00 00</a>
+                    <a href="#"><i class="fa-solid fa-location-dot"></i> Dakar, Sénégal</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Groupe ISI - SuperGestion. Tous droits réservés.</p>
+                <div class="legal-links">
+                    <a href="#">Confidentialité</a>
+                    <a href="#">CGV</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
